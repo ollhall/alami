@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css?_v=20221004145141">
+    <title>Оформлення замовлення</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+    <div class="header__container">
+        <div class="header__wrapper">
+            <a class="header__logo-ibg header__logo-ibg_contain logo" href="index.html">
+                <img class="logo__img" src="img/logo.svg" alt="Логотип">
+            </a>
+            <div class="header__inner">
+                <nav class="header__menu menu">
+                    <ul class="header__menu-list">
+                        <li class="header__menu-item"><a class="header__menu-link _active" href="index.html">Головна</a></li>
+                        <li class="header__menu-item"><a class="header__menu-link" href="shop.html">Магазин</a></li>
+                        <li class="header__menu-item"><a class="header__menu-link" href="individual.html">Індивідуальний підбір</a>
+                        </li>
+                        <li class="header__menu-item"><a class="header__menu-link" href="blog.html">Блог</a></li>
+                    </ul>
+                </nav>
+                <div class="header__phone phone">
+                    <a class="phone__link phone__link_ks" href="tel:0961721809">(096) 172 1809</a>
+                    <a class="phone__link phone__link_life" href="tel:0931160588">(093) 116 0588</a>
+                </div>
+                <button type="button" class="icon-menu">
+                    <span></span>
+                </button>
+            </div>
+           
+        </div>
+    </div>
+</header>
+    <main class="page page_inner">
+      <section class="page__header header-page order-bg">
+        <div class="header-page__container">
+          <div class="header-page__inner">
+            <h1 class="header-page__title title__page">Оформлення замовлення</h1>
+            <nav class="header-page__breadcrumbs breadcrumbs">
+              <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__item">
+                  <a class="breadcrumbs__link" href="index.html">Головна</a>
+                </li>
+                <li class="breadcrumbs__item">
+                  <span class="breadcrumbs__current">Оформлення замовлення</span>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </section>
+      <section class="page__order order">
+        <div class="order__container">
+          <div class="order__body">
+            <h2 class="order__title title">Контактні дані</h2>
+            <form class="order__form form-order" action="">
+              <label class="form-order__label" for="formName">Ім’я *</label>
+              <input class="form-order__input" type="text" id="formName" required>
+              <label class="form-order__label" for="formSurname">Прізвище</label>
+              <input class="form-order__input" type="text" id="formSurname" required>
+              <label class="form-order__label" for="formEmail">Електронна пошта</label>
+              <input class="form-order__input" type="email" id="formEmail" required>
+              <label class="form-order__label" for="formPhone">Телефон *</label>
+              <input class="form-order__input" type="tel" id="formPhone" required>
+              <div class="form-order__delivery delivery">
+                <div class="delivery__select select-delivery">
+                  <h3 class="select-delivery__title">Доставка</h3>
+                  <div class="select-delivery__radio radio">
+                    <input class="radio__input" id="d_1" type="radio" name="1">
+                    <label class="radio__label" for="d_1"><span class="radio__text">Нова пошта</span></label>
+                  </div>
+                  <div class="select-delivery__radio radio">
+                    <input class="radio__input" id="d_2" type="radio" name="1">
+                    <label class="radio__label" for="d_2"><span class="radio__text">Укрпошта</span></label>
+                  </div>
+                  <div class="select-delivery__radio radio">
+                    <input class="radio__input" id="d_3" type="radio" name="1">
+                    <label class="radio__label" for="d_3"><span class="radio__text">Кур’єрська доставка</span></label>
+                  </div>
+                  <div class="select-delivery__radio radio">
+                    <input class="radio__input" id="d_4" type="radio" name="1">
+                    <label class="radio__label" for="d_4"><span class="radio__text">Самовивіз</span></label>
+                  </div>
+                </div>
+                <div class="delivery__payment payment">
+                  <h3 class="payment__title">Оплата</h3>
+                  <div class="select-delivery__radio radio">
+                    <input class="radio__input" id="p_1" type="radio" name="2">
+                    <label class="radio__label" for="p_1"><span class="radio__text">При отриманні</span></label>
+                  </div>
+                  <div class="select-delivery__radio radio">
+                    <input class="radio__input" id="p_2" type="radio" name="2">
+                    <label class="radio__label" for="p_2"><span class="radio__text">Переказ на банківську
+                        карту</span></label>
+                  </div>
+                </div>
+              </div>
+              <label class="form-order__label-area" for="formArea">Коментар <br> <span>Примітка до замовлення (необов’язково)</span></label>
+              <textarea class="form-order__area" id="formArea"></textarea>
+              <div class="form-order__total total-order">
+                <h3 class="total-order__title">Ваше замовлення</h3>
+                <table class="total-order__table table-order">
+                  <thead class="table-order__prim prim-table">
+                    <tr class="prim-table__text text">
+                      <th>Товар</th>
+                      <th>Сума</th>
+                    </tr>
+                  </thead>
+                  <tbody class="table-order__body body-table">
+                    <tr class="body-table__content content-table">
+                      <td class="content-table__name name-table">
+                        <div class="name-table__inner">
+                          <a class="name-table__image" href="#">
+                            <picture><source srcset="img/cart/01.webp" type="image/webp"><img class="name-table__img" src="img/cart/01.jpg" alt="Картинка"></picture>
+                          </a>
+                          <a class="name-table__text" href="#">
+                            <h3>Антицелюлітний крем <span>x1</span></h3>
+                          </a>
+                        </div>
+                      </td>
+                      <td class="content-table__total total-table">
+                        <div class="total-table__inner">
+                          <div aria-label="Сума:" class="total-table__price">550,00грн</div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="body-table__content content-table">
+                      <td class="content-table__name name-table">
+                        <div class="name-table__inner">
+                          <a class="name-table__image" href="#">
+                            <picture><source srcset="img/cart/02.webp" type="image/webp"><img class="name-table__img" src="img/cart/02.jpg" alt="Картинка"></picture>
+                          </a>
+                          <a class="name-table__text" href="#">
+                            <h3>Засоби для вмивання <span>x1</span></h3>
+                          </a>
+                        </div>
+                      </td>
+                      <td class="content-table__total total-table">
+                        <div class="total-table__inner">
+                          <div aria-label="Сума:" class="total-table__price">30грн</div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="total-order__sum">До сплати: <span>580,00 грн</span></div>
+              </div>
+              <div class="total-order__buttons">
+                <a class="buttons-cart__return button" href="shop.html">Перейти до магазину</a>
+                <button class="form-order__btn button" type="submit">Підтвердити</button>
+                <a href="thanks.html">Дякую</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+    <div class="footer__container">
+        <div class="footer__wrapper">
+            <a class="footer__logo-ibg footer__logo-ibg_contain logo" href="index.html">
+                <img class="logo__img" src="img/logo.svg" alt="Логотип">
+            </a>
+            <nav class="footer__menu menu">
+                <ul class="footer__menu-list">
+                    <li class="footer__menu-item"><a class="footer__menu-link" href="index.html">Головна</a></li>
+                    <li class="footer__menu-item"><a class="footer__menu-link" href="shop.html">Магазин</a></li>
+                    <li class="footer__menu-item"><a class="footer__menu-link" href="individual.html">Індивідуальний підбір</a>
+                    </li>
+                    <li class="footer__menu-item"><a class="footer__menu-link" href="blog.html">Блог</a></li>
+                </ul>
+            </nav>
+            <div class="footer__inner">
+                <div class="footer__phone phone">
+                    <a class="phone__link phone__link_ks" href="tel:0961721809">(096) 172 1809</a>
+                    <a class="phone__link phone__link_life" href="tel:0931160588">(093) 116 0588</a>
+                </div>
+                <div class="footer__social social">
+                    <a class="social__link social__link_facebook _icon-facebook" href="#"></a>
+                    <a class="social__link social__link_tlg _icon-telegram" href="#"></a>
+                    <a class="social__link social__link_inst _icon-instagram" href="#"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+  </div>
+  
+  <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js?_v=20221004145141"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+  <script src="js/app.min.js?_v=20221004145141"></script>
+</body>
+
+</html>

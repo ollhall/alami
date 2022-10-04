@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css?_v=20221004145141">
+    <title>Продукт</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+    <div class="header__container">
+        <div class="header__wrapper">
+            <a class="header__logo-ibg header__logo-ibg_contain logo" href="index.html">
+                <img class="logo__img" src="img/logo.svg" alt="Логотип">
+            </a>
+            <div class="header__inner">
+                <nav class="header__menu menu">
+                    <ul class="header__menu-list">
+                        <li class="header__menu-item"><a class="header__menu-link _active" href="index.html">Головна</a></li>
+                        <li class="header__menu-item"><a class="header__menu-link" href="shop.html">Магазин</a></li>
+                        <li class="header__menu-item"><a class="header__menu-link" href="individual.html">Індивідуальний підбір</a>
+                        </li>
+                        <li class="header__menu-item"><a class="header__menu-link" href="blog.html">Блог</a></li>
+                    </ul>
+                </nav>
+                <div class="header__phone phone">
+                    <a class="phone__link phone__link_ks" href="tel:0961721809">(096) 172 1809</a>
+                    <a class="phone__link phone__link_life" href="tel:0931160588">(093) 116 0588</a>
+                </div>
+                <button type="button" class="icon-menu">
+                    <span></span>
+                </button>
+            </div>
+           
+        </div>
+    </div>
+</header>
+    <main class="page page_inner">
+      <section class="page__header header-page product-bg">
+        <div class="header-page__container">
+          <div class="header-page__inner">
+            <h1 class="header-page__title title__page">Продукт</h1>
+            <nav class="header-page__breadcrumbs breadcrumbs">
+              <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__item">
+                  <a class="breadcrumbs__link" href="index.html">Головна</a>
+                </li>
+                <li class="breadcrumbs__item">
+                  <a class="breadcrumbs__link" href="shop.html">Магазин</a>
+                </li>
+                <li class="breadcrumbs__item">
+                  <span class="breadcrumbs__current">Антицелюлітний крем</span>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </section>
+      <section class="page__product-descr descr-product">
+        <div class="descr-product__container">
+          <div class="descr-product__body">
+            <div class="descr-product__images-ibg">
+              <picture><source srcset="img/product/01.webp" type="image/webp"><img class="descr-product__img" src="img/product/01.jpg" alt="Картинка"></picture>
+            </div>
+            <div class="descr-product__content content-descr-product">
+              <h2 class="content-descr-product__title">Антицелюлітний крем</h2>
+              <div class="content-descr-product__rating rating-content">
+                <div class="rating-content__product rating rating_set rating-product">
+                  <div class="rating-product__body rating__body">
+                    <div class="rating-product__active rating__active"></div>
+                    <div class="rating-product__items rating__items">
+                      <input class="rating-product__item rating__item" type="radio" value="1" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="2" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="3" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="4" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="5" name="rating">
+                    </div>
+                  </div>
+                  <div class="rating-product__value rating__value">3.5</div>
+                </div>
+                <a class="rating-product__rew" href="#"><span>2</span> відгука</a>
+                <div class="rating-product__availability">Є в наявності</div>
+              </div>
+              <div class="content-descr-product__price">550,00 грн</div>
+              <div class="content-descr-product__text">
+                Натуральні масла, такі як кокосове та лавандове. Ефірна основа.
+              </div>
+              <div class="content-descr-product__quantity quantity-content">
+                <div class="quantity-content__drop drop">
+                  <select name="one" class="drop-select">
+                    <option value="">10г</option>
+                    <option value="1">20г</option>
+                    <option value="2">50г</option>
+                    <option value="3">100г</option>
+                  </select>
+                </div>
+                <div class="product__quantity quantity">
+                  <label class="quantity__label" for="">Кількість:</label>
+                  <button class="quantity__button quantity__button_minus" type="button">-</button>
+                  <div class="quantity__input">
+                    <input autocomplete="off" type="text" name="form[]" value="1">
+                  </div>
+                  <button class="quantity__button quantity__button_plus" type="button">+</button>
+                </div>
+              </div>
+              <div class="content-descr-product__summ">60,00 грн</div>
+              <div class="content-descr-product__buttons">
+                <a class="cart__btn button" href="cart.html">Покласти в кошик</a>
+                <a class="return__btn button" href="shop.html">В магазин</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="page__tab tab">
+        <div class="tab__container">
+          <div class="tabs">
+            <ul class="tabs__list">
+              <li class="tabs__item"><button class="tabs__btn tabs__btn--active" data-tabs-path="inventory">Опис
+                  товару</button>
+              </li>
+              <li class="tabs__item"><button class="tabs__btn" data-tabs-path="info">Додаткова інформація</button></li>
+              <li class="tabs__item"><button class="tabs__btn" data-tabs-path="reviews">Відгуки</button></li>
+            </ul>
+            <div class="tabs__content tabs__content--active" data-tabs-target="inventory">
+              <div class="content">
+                <h2 class="content__title">Опис товару</h2>
+                <div class="content__descr">
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat vitae suscipit beatae dolor nihil,
+                    animi facilis. Nihil aliquid, impedit nostrum sapiente blanditiis labore? Consequatur error a ipsam
+                    impedit provident quod?
+                    Impedit repudiandae dicta tenetur rerum ullam dolorem suscipit, pariatur quisquam a minus doloribus
+                    neque error quasi eius vel. Dolor ea quod natus ipsum maiores quis, quasi ipsa esse pariatur
+                    blanditiis.
+                  </p>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, ullam ducimus? Doloremque
+                    facere cupiditate minima amet praesentium sapiente cum et maiores possimus? Facere incidunt
+                    recusandae quod optio pariatur dolores earum!
+                    Autem repellat quas minima ipsa veniam commodi, aspernatur similique perspiciatis, dolor delectus
+                    corporis odio eos nemo neque esse! Cum ducimus voluptate rerum, ipsam velit quasi? Consectetur fugit
+                    dolores assumenda quod?
+                    Consequuntur, esse. Rem, saepe! Sapiente veniam inventore natus nobis, fugiat unde iusto, quibusdam
+                    consequatur accusamus excepturi sint voluptate beatae quidem sunt eligendi temporibus praesentium
+                    voluptatum provident doloribus ab totam. Necessitatibus!
+                    Dolore, repellendus velit odit ex debitis enim! Quibusdam praesentium inventore quidem maxime libero
+                    facere officiis consequatur quae sunt nam est harum excepturi quia debitis molestiae nobis nostrum
+                    minima, id nesciunt!
+                    Soluta quasi non qui provident, magnam necessitatibus tempora ratione tenetur ex quibusdam ab,
+                    blanditiis quidem quam facere aut deserunt commodi dolorem magni sunt. Sequi eum voluptate maxime
+                    praesentium non necessitatibus?
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis voluptate odio necessitatibus
+                    eligendi at ullam rerum suscipit in vitae provident quibusdam incidunt amet aspernatur, voluptas
+                    pariatur nam iusto ipsa ut!
+                    Exercitationem quam, tempora ipsam cumque fugiat nemo error at deleniti? Hic animi eveniet minus
+                    illo mollitia impedit neque! Quam dicta at distinctio impedit quis unde cupiditate velit, corrupti
+                    dignissimos quae.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="tabs__content" data-tabs-target="info">
+              <div class="content">
+                <h2 class="content__title">Додаткова інформація</h2>
+                <div class="content__descr">
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid optio nam aspernatur deleniti ipsa
+                    distinctio aperiam nostrum vero omnis, error neque architecto voluptatem vitae iusto libero. Sint,
+                    similique saepe. Officiis?
+                    Quibusdam corporis ut, in, totam harum doloribus dolorem ad similique blanditiis laboriosam illo
+                    fugiat et commodi placeat enim facere labore libero. Voluptatibus ipsam nobis sequi, ex quae
+                    obcaecati aliquam magni?
+                    Quae, velit ea! Error omnis aliquam ipsa, sequi quidem debitis nemo repellat harum deserunt at modi
+                    ut vitae incidunt eius quo eum non id commodi tempore! Itaque ratione velit explicabo!
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sapiente, voluptate iusto cupiditate ex
+                    soluta nulla illo architecto adipisci sint commodi perferendis quibusdam suscipit, cum eveniet
+                    dolore inventore, possimus consectetur!
+                    Eaque vitae quam ipsum cum. Non animi rerum numquam qui tenetur. Voluptatum pariatur corrupti quia
+                    et, aspernatur debitis ipsam numquam beatae esse culpa, est natus omnis excepturi, quibusdam quis
+                    sed!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="tabs__content reviews-tabs" data-tabs-target="reviews">
+              <div class="content">
+                <h2 class="content__title">Відгуки</h2>
+                <div class="reviews-tabs__content content-reviews">
+                  <div class="content-reviews__text">
+                    <p>
+                      Відгуків немає, поки що.
+                    </p>
+                    <p>
+                      <span>
+                        Будьте першим, хто залишить відгук “Антицелюлітний крем”
+                      </span>
+                    </p>
+                    <p>
+                      Ваша електронна адреса не оприлюднюватиметься. Обов’язкові поля позначені <span>*</span>
+                    </p>
+                  </div>
+                  <div class="content-reviews__body body-reviews">
+                    <h3 class="body-reviews__title">Ваша оцінка *</h3>
+                    <div class="rating-content__product rating rating_set rating-product">
+                      <div class="rating-product__body rating__body">
+                        <div class="rating-product__active rating__active"></div>
+                        <div class="rating-product__items rating__items">
+                          <input class="rating-product__item rating__item" type="radio" value="1" name="rating">
+                          <input class="rating-product__item rating__item" type="radio" value="2" name="rating">
+                          <input class="rating-product__item rating__item" type="radio" value="3" name="rating">
+                          <input class="rating-product__item rating__item" type="radio" value="4" name="rating">
+                          <input class="rating-product__item rating__item" type="radio" value="5" name="rating">
+                        </div>
+                      </div>
+                      <div class="rating-product__value rating__value">3.5</div>
+                    </div>
+                  </div>
+                  <form class="content-reviews__form form-reviews" action="">
+                    <label class="form-reviews__label" for="formArea">Ваш відгук</label>
+                    <textarea class="form-reviews__area" id="formArea"></textarea>
+                    <label class="form-reviews__label" for="formName">Ім’я *</label>
+                    <input class="form-reviews__input" type="text" id="formName" required>
+                    <label class="form-reviews__label" for="formEmail">Електронна пошта *</label>
+                    <input class="form-reviews__input" type="email" id="formEmail" required>
+                    <div class="form-reviews__checkbox checkbox">
+                      <input class="checkbox__input" id="c_1" type="checkbox" value="1">
+                      <label class="checkbox__label" for="c_1"><span class="checkbox__text">Зберегти моє ім’я, електронну адресу та адресу сайту в цьому браузері для подальших коментарів</span></label>
+                    </div>
+                    <button class="form-reviews__btn button" type="submit">Надіслати</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="page__like like">
+        <div class="like__container">
+          <h2 class="like__title title">Вам сподобається</h2>
+          <div class="like__body">
+            <article class="product__item item-product">
+              <div class="item-product__top top-product">
+                <div class="top-product__rating rating rating_set rating-product">
+                  <div class="rating-product__body rating__body">
+                    <div class="rating-product__active rating__active"></div>
+                    <div class="rating-product__items rating__items">
+                      <input class="rating-product__item rating__item" type="radio" value="1" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="2" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="3" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="4" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="5" name="rating">
+                    </div>
+                  </div>
+                  <div class="rating-product__value rating__value">3.0</div>
+                </div>
+                <div class="top-product__discount">-10%</div>
+              </div>
+              <a class="item-product__images-ibg" href="product.html">
+                <picture><source srcset="img/like/01.webp" type="image/webp"><img class="item-product__img" src="img/like/01.jpg" alt="Картинка"></picture>
+              </a>
+              <div class="item-product__bottom bottom-product">
+                <div class="bottom-product__subtitle">Омолоджуючий крем для лиця</div>
+                <div class="bottom-product__price price-product">
+                  <div class="price-product__old">100 грн</div>
+                  <div class="price-product__new">80 грн</div>
+                </div>
+                <div class="bottom-product__button">
+                  <a class="bottom-product__btn button" href="#">Покласти в кошик</a>
+                </div>
+              </div>
+            </article>
+            <article class="product__item item-product">
+              <div class="item-product__top top-product">
+                <div class="top-product__rating rating rating_set rating-product">
+                  <div class="rating-product__body rating__body">
+                    <div class="rating-product__active rating__active"></div>
+                    <div class="rating-product__items rating__items">
+                      <input class="rating-product__item rating__item" type="radio" value="1" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="2" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="3" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="4" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="5" name="rating">
+                    </div>
+                  </div>
+                  <div class="rating-product__value rating__value">3.0</div>
+                </div>
+                <div class="top-product__discount">-10%</div>
+              </div>
+              <a class="item-product__images-ibg" href="product.html">
+                <picture><source srcset="img/like/02.webp" type="image/webp"><img class="item-product__img" src="img/like/02.jpg" alt="Картинка"></picture>
+              </a>
+              <div class="item-product__bottom bottom-product">
+                <div class="bottom-product__subtitle">Масло для нігтів</div>
+                <div class="bottom-product__price price-product">
+                  <div class="price-product__old">100 грн</div>
+                  <div class="price-product__new">80 грн</div>
+                </div>
+                <div class="bottom-product__button">
+                  <a class="bottom-product__btn button" href="#">Покласти в кошик</a>
+                </div>
+              </div>
+            </article>
+            <article class="product__item item-product">
+              <div class="item-product__top top-product">
+                <div class="top-product__rating rating rating_set rating-product">
+                  <div class="rating-product__body rating__body">
+                    <div class="rating-product__active rating__active"></div>
+                    <div class="rating-product__items rating__items">
+                      <input class="rating-product__item rating__item" type="radio" value="1" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="2" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="3" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="4" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="5" name="rating">
+                    </div>
+                  </div>
+                  <div class="rating-product__value rating__value">3.0</div>
+                </div>
+                <div class="top-product__discount">-10%</div>
+              </div>
+              <a class="item-product__images-ibg" href="product.html">
+                <picture><source srcset="img/like/03.webp" type="image/webp"><img class="item-product__img" src="img/like/03.jpg" alt="Картинка"></picture>
+              </a>
+              <div class="item-product__bottom bottom-product">
+                <div class="bottom-product__subtitle">Пінка для ніг</div>
+                <div class="bottom-product__price price-product">
+                  <div class="price-product__old">100 грн</div>
+                  <div class="price-product__new">80 грн</div>
+                </div>
+                <div class="bottom-product__button">
+                  <a class="bottom-product__btn button" href="#">Покласти в кошик</a>
+                </div>
+              </div>
+            </article>
+            <article class="product__item item-product">
+              <div class="item-product__top top-product">
+                <div class="top-product__rating rating rating_set rating-product">
+                  <div class="rating-product__body rating__body">
+                    <div class="rating-product__active rating__active"></div>
+                    <div class="rating-product__items rating__items">
+                      <input class="rating-product__item rating__item" type="radio" value="1" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="2" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="3" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="4" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="5" name="rating">
+                    </div>
+                  </div>
+                  <div class="rating-product__value rating__value">3.0</div>
+                </div>
+                <div class="top-product__discount">-10%</div>
+              </div>
+              <a class="item-product__images-ibg" href="product.html">
+                <picture><source srcset="img/like/04.webp" type="image/webp"><img class="item-product__img" src="img/like/04.jpg" alt="Картинка"></picture>
+              </a>
+              <div class="item-product__bottom bottom-product">
+                <div class="bottom-product__subtitle">Сонцезахисний крем</div>
+                <div class="bottom-product__price price-product">
+                  <div class="price-product__old">100 грн</div>
+                  <div class="price-product__new">80 грн</div>
+                </div>
+                <div class="bottom-product__button">
+                  <a class="bottom-product__btn button" href="#">Покласти в кошик</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="page__related related">
+        <div class="related__container">
+          <h2 class="related__title title">Супутні товари</h2>
+          <div class="related__body">
+            <article class="product__item item-product">
+              <div class="item-product__top top-product">
+                <div class="top-product__rating rating rating_set rating-product">
+                  <div class="rating-product__body rating__body">
+                    <div class="rating-product__active rating__active"></div>
+                    <div class="rating-product__items rating__items">
+                      <input class="rating-product__item rating__item" type="radio" value="1" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="2" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="3" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="4" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="5" name="rating">
+                    </div>
+                  </div>
+                  <div class="rating-product__value rating__value">3.0</div>
+                </div>
+                <div class="top-product__discount">-10%</div>
+              </div>
+              <a class="item-product__images-ibg" href="product.html">
+                <picture><source srcset="img/related/01.webp" type="image/webp"><img class="item-product__img" src="img/related/01.jpg" alt="Картинка"></picture>
+              </a>
+              <div class="item-product__bottom bottom-product">
+                <div class="bottom-product__subtitle">Крем для массажу</div>
+                <div class="bottom-product__price price-product">
+                  <div class="price-product__old">100 грн</div>
+                  <div class="price-product__new">80 грн</div>
+                </div>
+                <div class="bottom-product__button">
+                  <a class="bottom-product__btn button" href="#">Покласти в кошик</a>
+                </div>
+              </div>
+            </article>
+            <article class="product__item item-product">
+              <div class="item-product__top top-product">
+                <div class="top-product__rating rating rating_set rating-product">
+                  <div class="rating-product__body rating__body">
+                    <div class="rating-product__active rating__active"></div>
+                    <div class="rating-product__items rating__items">
+                      <input class="rating-product__item rating__item" type="radio" value="1" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="2" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="3" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="4" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="5" name="rating">
+                    </div>
+                  </div>
+                  <div class="rating-product__value rating__value">3.0</div>
+                </div>
+                <div class="top-product__discount">-10%</div>
+              </div>
+              <a class="item-product__images-ibg" href="product.html">
+                <picture><source srcset="img/related/02.webp" type="image/webp"><img class="item-product__img" src="img/related/02.jpg" alt="Картинка"></picture>
+              </a>
+              <div class="item-product__bottom bottom-product">
+                <div class="bottom-product__subtitle">Дитячий крем</div>
+                <div class="bottom-product__price price-product">
+                  <div class="price-product__old">100 грн</div>
+                  <div class="price-product__new">80 грн</div>
+                </div>
+                <div class="bottom-product__button">
+                  <a class="bottom-product__btn button" href="#">Покласти в кошик</a>
+                </div>
+              </div>
+            </article>
+            <article class="product__item item-product">
+              <div class="item-product__top top-product">
+                <div class="top-product__rating rating rating_set rating-product">
+                  <div class="rating-product__body rating__body">
+                    <div class="rating-product__active rating__active"></div>
+                    <div class="rating-product__items rating__items">
+                      <input class="rating-product__item rating__item" type="radio" value="1" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="2" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="3" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="4" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="5" name="rating">
+                    </div>
+                  </div>
+                  <div class="rating-product__value rating__value">3.0</div>
+                </div>
+                <div class="top-product__discount">-10%</div>
+              </div>
+              <a class="item-product__images-ibg" href="product.html">
+                <picture><source srcset="img/related/03.webp" type="image/webp"><img class="item-product__img" src="img/related/03.jpg" alt="Картинка"></picture>
+              </a>
+              <div class="item-product__bottom bottom-product">
+                <div class="bottom-product__subtitle">Крем для тіла після душу</div>
+                <div class="bottom-product__price price-product">
+                  <div class="price-product__old">100 грн</div>
+                  <div class="price-product__new">80 грн</div>
+                </div>
+                <div class="bottom-product__button">
+                  <a class="bottom-product__btn button" href="#">Покласти в кошик</a>
+                </div>
+              </div>
+            </article>
+            <article class="product__item item-product">
+              <div class="item-product__top top-product">
+                <div class="top-product__rating rating rating_set rating-product">
+                  <div class="rating-product__body rating__body">
+                    <div class="rating-product__active rating__active"></div>
+                    <div class="rating-product__items rating__items">
+                      <input class="rating-product__item rating__item" type="radio" value="1" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="2" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="3" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="4" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="5" name="rating">
+                    </div>
+                  </div>
+                  <div class="rating-product__value rating__value">3.0</div>
+                </div>
+                <div class="top-product__discount">-10%</div>
+              </div>
+              <a class="item-product__images-ibg" href="product.html">
+                <picture><source srcset="img/related/04.webp" type="image/webp"><img class="item-product__img" src="img/related/04.jpg" alt="Картинка"></picture>
+              </a>
+              <div class="item-product__bottom bottom-product">
+                <div class="bottom-product__subtitle">Живильний крем</div>
+                <div class="bottom-product__price price-product">
+                  <div class="price-product__old">100 грн</div>
+                  <div class="price-product__new">80 грн</div>
+                </div>
+                <div class="bottom-product__button">
+                  <a class="bottom-product__btn button" href="#">Покласти в кошик</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+    <div class="footer__container">
+        <div class="footer__wrapper">
+            <a class="footer__logo-ibg footer__logo-ibg_contain logo" href="index.html">
+                <img class="logo__img" src="img/logo.svg" alt="Логотип">
+            </a>
+            <nav class="footer__menu menu">
+                <ul class="footer__menu-list">
+                    <li class="footer__menu-item"><a class="footer__menu-link" href="index.html">Головна</a></li>
+                    <li class="footer__menu-item"><a class="footer__menu-link" href="shop.html">Магазин</a></li>
+                    <li class="footer__menu-item"><a class="footer__menu-link" href="individual.html">Індивідуальний підбір</a>
+                    </li>
+                    <li class="footer__menu-item"><a class="footer__menu-link" href="blog.html">Блог</a></li>
+                </ul>
+            </nav>
+            <div class="footer__inner">
+                <div class="footer__phone phone">
+                    <a class="phone__link phone__link_ks" href="tel:0961721809">(096) 172 1809</a>
+                    <a class="phone__link phone__link_life" href="tel:0931160588">(093) 116 0588</a>
+                </div>
+                <div class="footer__social social">
+                    <a class="social__link social__link_facebook _icon-facebook" href="#"></a>
+                    <a class="social__link social__link_tlg _icon-telegram" href="#"></a>
+                    <a class="social__link social__link_inst _icon-instagram" href="#"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+  </div>
+  
+  <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js?_v=20221004145141"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+  <script src="js/app.min.js?_v=20221004145141"></script>
+</body>
+
+</html>

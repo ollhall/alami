@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css?_v=20221004145141">
+    <title>Магазин</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+    <div class="header__container">
+        <div class="header__wrapper">
+            <a class="header__logo-ibg header__logo-ibg_contain logo" href="index.html">
+                <img class="logo__img" src="img/logo.svg" alt="Логотип">
+            </a>
+            <div class="header__inner">
+                <nav class="header__menu menu">
+                    <ul class="header__menu-list">
+                        <li class="header__menu-item"><a class="header__menu-link _active" href="index.html">Головна</a></li>
+                        <li class="header__menu-item"><a class="header__menu-link" href="shop.html">Магазин</a></li>
+                        <li class="header__menu-item"><a class="header__menu-link" href="individual.html">Індивідуальний підбір</a>
+                        </li>
+                        <li class="header__menu-item"><a class="header__menu-link" href="blog.html">Блог</a></li>
+                    </ul>
+                </nav>
+                <div class="header__phone phone">
+                    <a class="phone__link phone__link_ks" href="tel:0961721809">(096) 172 1809</a>
+                    <a class="phone__link phone__link_life" href="tel:0931160588">(093) 116 0588</a>
+                </div>
+                <button type="button" class="icon-menu">
+                    <span></span>
+                </button>
+            </div>
+           
+        </div>
+    </div>
+</header>
+    <main class="page page_inner">
+      <section class="page__header header-page shop-bg">
+        <div class="header-page__container">
+          <div class="header-page__inner">
+            <h1 class="header-page__title title__page">Магазин</h1>
+            <nav class="header-page__breadcrumbs breadcrumbs">
+              <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__item">
+                  <a class="breadcrumbs__link" href="index.html">Головна</a>
+                </li>
+                <li class="breadcrumbs__item">
+                  <span class="breadcrumbs__current">Магазин</span>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </section>
+      <div class="page__category category">
+        <div class="category__container">
+          <div class="category dropdown">
+            <button class="dropdown__button">Вибрати категорію</button>
+            <ul class="dropdown__list">
+              <li class="dropdown__list-item" data-value="1">Крем для рук</li>
+              <li class="dropdown__list-item" data-value="2">Засоби для вмивання</li>
+              <li class="dropdown__list-item" data-value="3">Крем для ніг</li>
+              <li class="dropdown__list-item" data-value="4">Крем для обличчя</li>
+              <li class="dropdown__list-item" data-value="4">Крем для тіла</li>
+              <li class="dropdown__list-item" data-value="4">Крем для обличчя</li>
+            </ul>
+            <input type="text" name="select-category" value="" class="dropdown__input-hidden">
+          </div>
+        </div>
+      </div>
+      <div class="page__shop shop">
+        <div class="shop__container">
+          <div class="shop__wrapper">
+            <article class="product__item item-product">
+              <div class="item-product__top top-product">
+                <div class="top-product__rating rating rating_set rating-product">
+                  <div class="rating-product__body rating__body">
+                    <div class="rating-product__active rating__active"></div>
+                    <div class="rating-product__items rating__items">
+                      <input class="rating-product__item rating__item" type="radio" value="1" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="2" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="3" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="4" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="5" name="rating">
+                    </div>
+                  </div>
+                  <div class="rating-product__value rating__value">3.0</div>
+                </div>
+                <div class="top-product__discount">-10%</div>
+              </div>
+              <a class="item-product__images-ibg" href="product.html">
+                <picture><source srcset="img/shop/01.webp" type="image/webp"><img class="item-product__img" src="img/shop/01.jpg" alt="Картинка"></picture>
+              </a>
+              <div class="item-product__bottom bottom-product">
+                <div class="bottom-product__subtitle">Крем для рук</div>
+                <div class="bottom-product__price price-product">
+                  <div class="price-product__old">100 грн</div>
+                  <div class="price-product__new">80 грн</div>
+                </div>
+                <div class="bottom-product__button">
+                  <a class="bottom-product__btn button" href="#">Покласти в кошик</a>
+                </div>
+              </div>
+            </article>
+            <article class="product__item item-product">
+              <div class="item-product__top top-product">
+                <div class="top-product__rating rating rating_set rating-product">
+                  <div class="rating-product__body rating__body">
+                    <div class="rating-product__active rating__active"></div>
+                    <div class="rating-product__items rating__items">
+                      <input class="rating-product__item rating__item" type="radio" value="1" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="2" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="3" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="4" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="5" name="rating">
+                    </div>
+                  </div>
+                  <div class="rating-product__value rating__value">3.0</div>
+                </div>
+                <div class="top-product__discount">-10%</div>
+              </div>
+              <a class="item-product__images-ibg" href="#">
+                <picture><source srcset="img/shop/02.webp" type="image/webp"><img class="item-product__img" src="img/shop/02.jpg" alt="Картинка"></picture>
+              </a>
+              <div class="item-product__bottom bottom-product">
+                <div class="bottom-product__subtitle">Молочко для тіла</div>
+                <div class="bottom-product__price price-product">
+                  <div class="price-product__old">100 грн</div>
+                  <div class="price-product__new">80 грн</div>
+                </div>
+                <div class="bottom-product__button">
+                  <a class="bottom-product__btn button" href="#">Покласти в кошик</a>
+                </div>
+              </div>
+            </article>
+            <article class="product__item item-product">
+              <div class="item-product__top top-product">
+                <div class="top-product__rating rating rating_set rating-product">
+                  <div class="rating-product__body rating__body">
+                    <div class="rating-product__active rating__active"></div>
+                    <div class="rating-product__items rating__items">
+                      <input class="rating-product__item rating__item" type="radio" value="1" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="2" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="3" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="4" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="5" name="rating">
+                    </div>
+                  </div>
+                  <div class="rating-product__value rating__value">3.0</div>
+                </div>
+                <div class="top-product__discount">-10%</div>
+              </div>
+              <a class="item-product__images-ibg" href="#">
+                <picture><source srcset="img/shop/03.webp" type="image/webp"><img class="item-product__img" src="img/shop/03.jpg" alt="Картинка"></picture>
+              </a>
+              <div class="item-product__bottom bottom-product">
+                <div class="bottom-product__subtitle">Крем для комбінованої шкіри</div>
+                <div class="bottom-product__price price-product">
+                  <div class="price-product__old">100 грн</div>
+                  <div class="price-product__new">80 грн</div>
+                </div>
+                <div class="bottom-product__button">
+                  <a class="bottom-product__btn button" href="#">Покласти в кошик</a>
+                </div>
+              </div>
+            </article>
+            <article class="product__item item-product">
+              <div class="item-product__top top-product">
+                <div class="top-product__rating rating rating_set rating-product">
+                  <div class="rating-product__body rating__body">
+                    <div class="rating-product__active rating__active"></div>
+                    <div class="rating-product__items rating__items">
+                      <input class="rating-product__item rating__item" type="radio" value="1" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="2" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="3" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="4" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="5" name="rating">
+                    </div>
+                  </div>
+                  <div class="rating-product__value rating__value">3.0</div>
+                </div>
+                <div class="top-product__discount">-10%</div>
+              </div>
+              <a class="item-product__images-ibg" href="#">
+                <picture><source srcset="img/shop/04.webp" type="image/webp"><img class="item-product__img" src="img/shop/04.jpg" alt="Картинка"></picture>
+              </a>
+              <div class="item-product__bottom bottom-product">
+                <div class="bottom-product__subtitle">Крем для п’яток</div>
+                <div class="bottom-product__price price-product">
+                  <div class="price-product__old">100 грн</div>
+                  <div class="price-product__new">80 грн</div>
+                </div>
+                <div class="bottom-product__button">
+                  <a class="bottom-product__btn button" href="#">Покласти в кошик</a>
+                </div>
+              </div>
+            </article>
+            <article class="product__item item-product">
+              <div class="item-product__top top-product">
+                <div class="top-product__rating rating rating_set rating-product">
+                  <div class="rating-product__body rating__body">
+                    <div class="rating-product__active rating__active"></div>
+                    <div class="rating-product__items rating__items">
+                      <input class="rating-product__item rating__item" type="radio" value="1" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="2" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="3" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="4" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="5" name="rating">
+                    </div>
+                  </div>
+                  <div class="rating-product__value rating__value">3.0</div>
+                </div>
+                <div class="top-product__discount">-10%</div>
+              </div>
+              <a class="item-product__images-ibg" href="#">
+                <picture><source srcset="img/shop/05.webp" type="image/webp"><img class="item-product__img" src="img/shop/05.jpg" alt="Картинка"></picture>
+              </a>
+              <div class="item-product__bottom bottom-product">
+                <div class="bottom-product__subtitle">Ароматичне молочко для тіла</div>
+                <div class="bottom-product__price price-product">
+                  <div class="price-product__old">100 грн</div>
+                  <div class="price-product__new">80 грн</div>
+                </div>
+                <div class="bottom-product__button">
+                  <a class="bottom-product__btn button" href="#">Покласти в кошик</a>
+                </div>
+              </div>
+            </article>
+            <article class="product__item item-product">
+              <div class="item-product__top top-product">
+                <div class="top-product__rating rating rating_set rating-product">
+                  <div class="rating-product__body rating__body">
+                    <div class="rating-product__active rating__active"></div>
+                    <div class="rating-product__items rating__items">
+                      <input class="rating-product__item rating__item" type="radio" value="1" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="2" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="3" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="4" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="5" name="rating">
+                    </div>
+                  </div>
+                  <div class="rating-product__value rating__value">3.0</div>
+                </div>
+                <div class="top-product__discount">-10%</div>
+              </div>
+              <a class="item-product__images-ibg" href="#">
+                <picture><source srcset="img/shop/06.webp" type="image/webp"><img class="item-product__img" src="img/shop/06.jpg" alt="Картинка"></picture>
+              </a>
+              <div class="item-product__bottom bottom-product">
+                <div class="bottom-product__subtitle">Крем для тіла</div>
+                <div class="bottom-product__price price-product">
+                  <div class="price-product__old">100 грн</div>
+                  <div class="price-product__new">80 грн</div>
+                </div>
+                <div class="bottom-product__button">
+                  <a class="bottom-product__btn button" href="#">Покласти в кошик</a>
+                </div>
+              </div>
+            </article>
+            <article class="product__item item-product">
+              <div class="item-product__top top-product">
+                <div class="top-product__rating rating rating_set rating-product">
+                  <div class="rating-product__body rating__body">
+                    <div class="rating-product__active rating__active"></div>
+                    <div class="rating-product__items rating__items">
+                      <input class="rating-product__item rating__item" type="radio" value="1" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="2" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="3" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="4" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="5" name="rating">
+                    </div>
+                  </div>
+                  <div class="rating-product__value rating__value">3.0</div>
+                </div>
+                <div class="top-product__discount">-10%</div>
+              </div>
+              <a class="item-product__images-ibg" href="#">
+                <picture><source srcset="img/shop/07.webp" type="image/webp"><img class="item-product__img" src="img/shop/07.jpg" alt="Картинка"></picture>
+              </a>
+              <div class="item-product__bottom bottom-product">
+                <div class="bottom-product__subtitle">Крем для сухої шкіри</div>
+                <div class="bottom-product__price price-product">
+                  <div class="price-product__old">100 грн</div>
+                  <div class="price-product__new">80 грн</div>
+                </div>
+                <div class="bottom-product__button">
+                  <a class="bottom-product__btn button" href="#">Покласти в кошик</a>
+                </div>
+              </div>
+            </article>
+            <article class="product__item item-product">
+              <div class="item-product__top top-product">
+                <div class="top-product__rating rating rating_set rating-product">
+                  <div class="rating-product__body rating__body">
+                    <div class="rating-product__active rating__active"></div>
+                    <div class="rating-product__items rating__items">
+                      <input class="rating-product__item rating__item" type="radio" value="1" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="2" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="3" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="4" name="rating">
+                      <input class="rating-product__item rating__item" type="radio" value="5" name="rating">
+                    </div>
+                  </div>
+                  <div class="rating-product__value rating__value">3.0</div>
+                </div>
+                <div class="top-product__discount">-10%</div>
+              </div>
+              <a class="item-product__images-ibg" href="#">
+                <picture><source srcset="img/shop/08.webp" type="image/webp"><img class="item-product__img" src="img/shop/08.jpg" alt="Картинка"></picture>
+              </a>
+              <div class="item-product__bottom bottom-product">
+                <div class="bottom-product__subtitle">Ароматичне масло для волосся</div>
+                <div class="bottom-product__price price-product">
+                  <div class="price-product__old">100 грн</div>
+                  <div class="price-product__new">80 грн</div>
+                </div>
+                <div class="bottom-product__button">
+                  <a class="bottom-product__btn button" href="#">Покласти в кошик</a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="shop__pagging pagging">
+            <button class="pagging__button pagging__button_prev _icon-arrows" type="button"></button>
+            <ul class="pagging__list">
+              <li class="pagging__item">
+                <a class="pagging__link" href="#">1</a>
+              </li>
+              <li class="pagging__item _active">
+                <a class="pagging__link" href="#">2</a>
+              </li>
+              <li class="pagging__item">
+                <a class="pagging__link" href="#">3</a>
+              </li>
+            </ul>
+            <button class="pagging__button pagging__button_next _icon-arrows" type="button"></button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+    <div class="footer__container">
+        <div class="footer__wrapper">
+            <a class="footer__logo-ibg footer__logo-ibg_contain logo" href="index.html">
+                <img class="logo__img" src="img/logo.svg" alt="Логотип">
+            </a>
+            <nav class="footer__menu menu">
+                <ul class="footer__menu-list">
+                    <li class="footer__menu-item"><a class="footer__menu-link" href="index.html">Головна</a></li>
+                    <li class="footer__menu-item"><a class="footer__menu-link" href="shop.html">Магазин</a></li>
+                    <li class="footer__menu-item"><a class="footer__menu-link" href="individual.html">Індивідуальний підбір</a>
+                    </li>
+                    <li class="footer__menu-item"><a class="footer__menu-link" href="blog.html">Блог</a></li>
+                </ul>
+            </nav>
+            <div class="footer__inner">
+                <div class="footer__phone phone">
+                    <a class="phone__link phone__link_ks" href="tel:0961721809">(096) 172 1809</a>
+                    <a class="phone__link phone__link_life" href="tel:0931160588">(093) 116 0588</a>
+                </div>
+                <div class="footer__social social">
+                    <a class="social__link social__link_facebook _icon-facebook" href="#"></a>
+                    <a class="social__link social__link_tlg _icon-telegram" href="#"></a>
+                    <a class="social__link social__link_inst _icon-instagram" href="#"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+  </div>
+  
+  <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js?_v=20221004145141"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+  <script src="js/app.min.js?_v=20221004145141"></script>
+</body>
+
+</html>
